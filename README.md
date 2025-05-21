@@ -18,7 +18,7 @@ This project aims to build a machine learning model that predicts the market pri
 
 ## 🖼️ App Preview
 
-![Screenshot of the App](../assets/Screenshot_app.png)
+![Screenshot of the App](/assets/Screenshot_app.png)
 
 ---
 
