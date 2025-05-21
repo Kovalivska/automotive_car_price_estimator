@@ -18,6 +18,8 @@ This project aims to build a machine learning model that predicts the market pri
 
 ## 🖼️ App Preview
 
+https://kovalivska-automotive-car-price-estimator-scriptsapp-xuiguq.streamlit.app/ 
+
 ![Screenshot of the App](/assets/Screenshot_app.png)
 
 ---
