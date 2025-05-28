@@ -1,6 +1,10 @@
 # runtime.txt → python-3.10
 
-# Core ML deps (match your training env)
+# Core ML stack (must all line up ABI-wise)
+numpy==1.23.5
+scipy==1.9.3
+pandas==1.5.3
+
 scikit-learn==1.2.2
 joblib==1.2.0
 xgboost==1.7.5
@@ -8,9 +12,14 @@ xgboost==1.7.5
 # Streamlit
 streamlit==1.44.1
 
-# Data stack (latest compatible versions)
-pandas
-numpy
-plotly
+# Plotting
+plotly==6.1.2
+
+# Any other runtime deps you need
+psycopg2-binary
+catboost
+ruamel.yaml==0.17.31
+ruamel.yaml.clib==0.2.9
 
 # cache-bust: 2025-05-28
+
