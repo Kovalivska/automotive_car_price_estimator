@@ -38,15 +38,24 @@ automotive_car_price_estimator/
 │   └── segment_rmse.csv
 ├── notebooks/                ← Exploratory analysis, model training
 │   ├── CAR_PRICE_PREDICTION_MODEL.ipynb
-│   └── PyGWalker_for_cars.ipynb
+│ 
 ├── reports/                  ← EDA results and reports
 │   └── car_pricing_eda.html
+├── docs/
+│ └── car_pricing_eda.html # Public version for GitHub Pages
 ├── scripts/                  ← Streamlit application
 │   └── app.py
 └── requirements.txt          ← Required packages for the project
+└── README.md
 ```
 
 ---
+## 📊 Exploratory Data Analysis (EDA)
+
+An interactive HTML report was generated as part of the data exploration phase.  
+You can view the full profiling report here:
+
+🔗 [View EDA Report](https://kovalivska.github.io/automotive_car_price_estimator/car_pricing_eda.html)
 
 ## 🤖 Models Tested
 
@@ -75,29 +84,34 @@ The following regression models were trained and evaluated:
 
 ## 🚀 How to Run the App
 
-### 1. Clone the project:
+### Clone the project:
 ```bash
 git clone https://github.com/yourusername/automotive_car_price_estimator.git
 cd automotive_car_price_estimator
 ```
 
-### 2. Create a virtual environment (optional):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+### ⚙️ Setup & Requirements
 
-### 3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+This project uses **Python 3.10** and **Streamlit** for building the application.  
+Please ensure you are using Python 3.10 to avoid compatibility issues.
 
-### 4. Launch Streamlit app:
-```bash
-cd scripts/
-streamlit run app.py
-```
+### Recommended Setup Steps:
 
+1. Create a virtual environment with Python 3.10:
+    ```bash
+    python3.10 -m venv venv
+    source venv/bin/activate  # On Windows use: venv\Scripts\activate
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
+    `
 Open your browser at: http://localhost:8501
 
 ---
