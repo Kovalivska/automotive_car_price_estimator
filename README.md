@@ -7,7 +7,7 @@ This project aims to build a machine learning model that predicts the market pri
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Estimate used car prices accurately
 - Provide a tool for dealerships and private sellers to evaluate car values
@@ -16,14 +16,14 @@ This project aims to build a machine learning model that predicts the market pri
 
 ---
 
-## 🖼️ App Preview
+##  App Preview
 
 [View the live app on Streamlit Cloud](https://kovalivska-automotive-car-price-estimator-scriptsapp-voqcjw.streamlit.app/)  
 ![Screenshot of the App](assets/Screenshot_app.png)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 automotive_car_price_estimator/
@@ -50,14 +50,14 @@ automotive_car_price_estimator/
 ```
 
 ---
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 An interactive HTML report was generated as part of the data exploration phase.  
 You can view the full profiling report here:
 
 🔗 [View EDA Report](https://kovalivska.github.io/automotive_car_price_estimator/car_pricing_eda.html)
 
-## 🤖 Models Tested
+## Models Tested
 
 The following regression models were trained and evaluated:
 - 🔹 LinearRegression 
@@ -67,7 +67,7 @@ The following regression models were trained and evaluated:
 - 🔹 LightGBMRegressor  
 - 🔹 CatBoostRegressor 
 
-### 📊 Metrics Used
+### Metrics Used
 
 | Model       		| MAE       | RMSE     |
 |-------------------|-----------|----------|
@@ -78,11 +78,11 @@ The following regression models were trained and evaluated:
 | Decision Tree 	| 2500.32   | 4419.97  |
 | Gradient Boosting | 1725.61   | 3104.63  |
 
-✅ **XGBoost (log-transformed target + tuning) was selected as the final model** with the lowest MAE **$1525.87** and RMSE **$2829.23**, aiming for the most consistent pricing across economy and mid-range cars.
+ **XGBoost (log-transformed target + tuning) was selected as the final model** with the lowest MAE **$1525.87** and RMSE **$2829.23**, aiming for the most consistent pricing across economy and mid-range cars.
 
 ---
 
-## 🚀 How to Run the App
+##  How to Run the App
 
 ### Clone the project:
 ```bash
@@ -90,7 +90,7 @@ git clone https://github.com/yourusername/automotive_car_price_estimator.git
 cd automotive_car_price_estimator
 ```
 
-### ⚙️ Setup & Requirements
+### Setup & Requirements
 
 This project uses **Python 3.10** and **Streamlit** for building the application.  
 Please ensure you are using Python 3.10 to avoid compatibility issues.
@@ -116,7 +116,7 @@ Open your browser at: http://localhost:8501
 
 ---
 
-## 📦 Main Packages
+## Main Packages
 
 - `streamlit`
 - `pandas`
@@ -136,7 +136,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧠 Author
+##  Author
 
 Developed by **Svitlana Kovalivska, PhD, 2025**.  
 For questions, feel free to open an issue or reach out on GitHub.
