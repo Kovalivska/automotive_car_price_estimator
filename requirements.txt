@@ -1,0 +1,26 @@
+# Specify Python runtime in runtime.txt:
+# python-3.10
+
+# Core ML dependencies pinned to the versions used when you trained your pipeline
+scikit-learn==1.2.2
+joblib==1.2.0
+xgboost==1.7.5
+
+# Streamlit
+streamlit==1.44.1
+
+# Common data stack
+pandas
+numpy
+scipy
+
+# Visualization
+plotly
+
+# Any additional libraries your app needs:
+catboost
+ruamel.yaml==0.17.31
+ruamel.yaml.clib==0.2.9
+psycopg2-binary
+
+# cache-bust: 2025-05-28
